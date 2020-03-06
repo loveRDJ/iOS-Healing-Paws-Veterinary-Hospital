@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04096789240F3E1E00DC8518 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04096788240F3E1E00DC8518 /* CustomButton.swift */; };
+		0409678C240F431700DC8518 /* SignUpButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0409678B240F431700DC8518 /* SignUpButton.swift */; };
+		04096791240F76F200DC8518 /* SliderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04096790240F76F200DC8518 /* SliderCell.swift */; };
+		04096793240FA4E100DC8518 /* CancelButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04096792240FA4E100DC8518 /* CancelButton.swift */; };
+		04096795240FC3A600DC8518 /* FunctionCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04096794240FC3A600DC8518 /* FunctionCollectionViewCell.swift */; };
+		04105CD8240FDE49006584E6 /* MakeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04105CD7240FDE49006584E6 /* MakeViewController.swift */; };
+		04105CDA240FF0D2006584E6 /* DoctorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04105CD9240FF0D2006584E6 /* DoctorsViewController.swift */; };
+		04105CDC240FF190006584E6 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04105CDB240FF190006584E6 /* ChatViewController.swift */; };
+		04105CDE240FF29C006584E6 /* DoctorTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04105CDD240FF29C006584E6 /* DoctorTableViewCell.swift */; };
+		041BDF01240A1D2500311649 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041BDF00240A1D2500311649 /* AppDelegate.swift */; };
+		041BDF03240A1D2500311649 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041BDF02240A1D2500311649 /* SceneDelegate.swift */; };
+		041BDF05240A1D2500311649 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041BDF04240A1D2500311649 /* ViewController.swift */; };
+		041BDF08240A1D2500311649 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 041BDF06240A1D2500311649 /* Main.storyboard */; };
+		041BDF0A240A1D2900311649 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 041BDF09240A1D2900311649 /* Assets.xcassets */; };
+		041BDF0D240A1D2900311649 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 041BDF0B240A1D2900311649 /* LaunchScreen.storyboard */; };
+		041BDF15240A1D9800311649 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041BDF14240A1D9800311649 /* SignUpViewController.swift */; };
+		041BDF17240A1DBA00311649 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041BDF16240A1DBA00311649 /* LoginViewController.swift */; };
+		048417BF240E69CB00CD59BB /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048417BE240E69CB00CD59BB /* CustomTableViewCell.swift */; };
+		048417C1240E6DEB00CD59BB /* AppointmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048417C0240E6DEB00CD59BB /* AppointmentViewController.swift */; };
+		048417C3240E730D00CD59BB /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048417C2240E730D00CD59BB /* ProfileViewController.swift */; };
+		048417C5240E732100CD59BB /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048417C4240E732100CD59BB /* SettingViewController.swift */; };
+		048417C7240E74B000CD59BB /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048417C6240E74B000CD59BB /* TabBarViewController.swift */; };
+		048417C9240E74D700CD59BB /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048417C8240E74D700CD59BB /* HomeViewController.swift */; };
+		048417CB240E8BE100CD59BB /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048417CA240E8BE100CD59BB /* DetailViewController.swift */; };
+		04ADBCB8240CEFC700CD3B66 /* GoogleUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04ADBCB7240CEFC700CD3B66 /* GoogleUtilities.framework */; };
+		04B0FCD02410D5210080882F /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 04B0FCC22410D5210080882F /* LICENSE */; };
+		04B0FCD12410D5210080882F /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 04B0FCC32410D5210080882F /* README.md */; };
+		04B0FCD22410D5210080882F /* YoshikoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B0FCC62410D5210080882F /* YoshikoTextField.swift */; };
+		04B0FCD32410D5210080882F /* HoshiTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B0FCC72410D5210080882F /* HoshiTextField.swift */; };
+		04B0FCD42410D5210080882F /* MinoruTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B0FCC82410D5210080882F /* MinoruTextField.swift */; };
+		04B0FCD52410D5210080882F /* YokoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B0FCC92410D5210080882F /* YokoTextField.swift */; };
+		04B0FCD62410D5210080882F /* TextFieldEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B0FCCA2410D5210080882F /* TextFieldEffects.swift */; };
+		04B0FCD72410D5210080882F /* JiroTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B0FCCB2410D5210080882F /* JiroTextField.swift */; };
+		04B0FCD82410D5210080882F /* MadokaTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B0FCCC2410D5210080882F /* MadokaTextField.swift */; };
+		04B0FCD92410D5210080882F /* KaedeTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B0FCCD2410D5210080882F /* KaedeTextField.swift */; };
+		04B0FCDA2410D5210080882F /* AkiraTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B0FCCE2410D5210080882F /* AkiraTextField.swift */; };
+		04B0FCDB2410D5210080882F /* IsaoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B0FCCF2410D5210080882F /* IsaoTextField.swift */; };
+		04B0FCDD24112D6C0080882F /* UploadButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B0FCDC24112D6C0080882F /* UploadButton.swift */; };
+		04B0FCDF24112EAD0080882F /* BookButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B0FCDE24112EAD0080882F /* BookButton.swift */; };
+		04D224B1240C9FBB0035762C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04D224B0240C9FBB0035762C /* GoogleService-Info.plist */; };
+		DFA28926F676A33AC630F4A1 /* Pods_Healing_Paws_Veterinary_Hospital.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C2B6D5AE1F16DDDACA3EAF0 /* Pods_Healing_Paws_Veterinary_Hospital.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		04096788240F3E1E00DC8518 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		0409678B240F431700DC8518 /* SignUpButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpButton.swift; sourceTree = "<group>"; };
+		04096790240F76F200DC8518 /* SliderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderCell.swift; sourceTree = "<group>"; };
+		04096792240FA4E100DC8518 /* CancelButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CancelButton.swift; sourceTree = "<group>"; };
+		04096794240FC3A600DC8518 /* FunctionCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionCollectionViewCell.swift; sourceTree = "<group>"; };
+		04105CD7240FDE49006584E6 /* MakeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeViewController.swift; sourceTree = "<group>"; };
+		04105CD9240FF0D2006584E6 /* DoctorsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorsViewController.swift; sourceTree = "<group>"; };
+		04105CDB240FF190006584E6 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		04105CDD240FF29C006584E6 /* DoctorTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorTableViewCell.swift; sourceTree = "<group>"; };
+		041BDEFD240A1D2500311649 /* Healing Paws Veterinary Hospital.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Healing Paws Veterinary Hospital.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		041BDF00240A1D2500311649 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		041BDF02240A1D2500311649 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		041BDF04240A1D2500311649 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		041BDF07240A1D2500311649 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		041BDF09240A1D2900311649 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		041BDF0C240A1D2900311649 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		041BDF0E240A1D2900311649 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		041BDF14240A1D9800311649 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		041BDF16240A1DBA00311649 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		048417BE240E69CB00CD59BB /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		048417C0240E6DEB00CD59BB /* AppointmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentViewController.swift; sourceTree = "<group>"; };
+		048417C2240E730D00CD59BB /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		048417C4240E732100CD59BB /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		048417C6240E74B000CD59BB /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		048417C8240E74D700CD59BB /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		048417CA240E8BE100CD59BB /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		04ADBCB5240CEDD800CD3B66 /* FirebaseAuth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseAuth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		04ADBCB7240CEFC700CD3B66 /* GoogleUtilities.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GoogleUtilities.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		04B0FCC22410D5210080882F /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		04B0FCC32410D5210080882F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		04B0FCC62410D5210080882F /* YoshikoTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YoshikoTextField.swift; sourceTree = "<group>"; };
+		04B0FCC72410D5210080882F /* HoshiTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HoshiTextField.swift; sourceTree = "<group>"; };
+		04B0FCC82410D5210080882F /* MinoruTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MinoruTextField.swift; sourceTree = "<group>"; };
+		04B0FCC92410D5210080882F /* YokoTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YokoTextField.swift; sourceTree = "<group>"; };
+		04B0FCCA2410D5210080882F /* TextFieldEffects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldEffects.swift; sourceTree = "<group>"; };
+		04B0FCCB2410D5210080882F /* JiroTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JiroTextField.swift; sourceTree = "<group>"; };
+		04B0FCCC2410D5210080882F /* MadokaTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MadokaTextField.swift; sourceTree = "<group>"; };
+		04B0FCCD2410D5210080882F /* KaedeTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KaedeTextField.swift; sourceTree = "<group>"; };
+		04B0FCCE2410D5210080882F /* AkiraTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AkiraTextField.swift; sourceTree = "<group>"; };
+		04B0FCCF2410D5210080882F /* IsaoTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IsaoTextField.swift; sourceTree = "<group>"; };
+		04B0FCDC24112D6C0080882F /* UploadButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadButton.swift; sourceTree = "<group>"; };
+		04B0FCDE24112EAD0080882F /* BookButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookButton.swift; sourceTree = "<group>"; };
+		04D224B0240C9FBB0035762C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		21EAAF00628B13D583D18ADC /* Pods-Healing Paws Veterinary Hospital.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Healing Paws Veterinary Hospital.release.xcconfig"; path = "Target Support Files/Pods-Healing Paws Veterinary Hospital/Pods-Healing Paws Veterinary Hospital.release.xcconfig"; sourceTree = "<group>"; };
+		6C2B6D5AE1F16DDDACA3EAF0 /* Pods_Healing_Paws_Veterinary_Hospital.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Healing_Paws_Veterinary_Hospital.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9422C3ABCE598C2528C30F8C /* Pods-Healing Paws Veterinary Hospital.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Healing Paws Veterinary Hospital.debug.xcconfig"; path = "Target Support Files/Pods-Healing Paws Veterinary Hospital/Pods-Healing Paws Veterinary Hospital.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		041BDEFA240A1D2500311649 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04ADBCB8240CEFC700CD3B66 /* GoogleUtilities.framework in Frameworks */,
+				DFA28926F676A33AC630F4A1 /* Pods_Healing_Paws_Veterinary_Hospital.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0409678A240F42EA00DC8518 /* CustomButton */ = {
+			isa = PBXGroup;
+			children = (
+				04096788240F3E1E00DC8518 /* CustomButton.swift */,
+				0409678B240F431700DC8518 /* SignUpButton.swift */,
+				04096792240FA4E100DC8518 /* CancelButton.swift */,
+				04B0FCDC24112D6C0080882F /* UploadButton.swift */,
+				04B0FCDE24112EAD0080882F /* BookButton.swift */,
+			);
+			path = CustomButton;
+			sourceTree = "<group>";
+		};
+		0409678D240F4B2D00DC8518 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				048417BE240E69CB00CD59BB /* CustomTableViewCell.swift */,
+				04096790240F76F200DC8518 /* SliderCell.swift */,
+				04096794240FC3A600DC8518 /* FunctionCollectionViewCell.swift */,
+				04105CDD240FF29C006584E6 /* DoctorTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		041BDEF4240A1D2500311649 = {
+			isa = PBXGroup;
+			children = (
+				041BDEFF240A1D2500311649 /* Healing Paws Veterinary Hospital */,
+				041BDEFE240A1D2500311649 /* Products */,
+				CF467748E4B7E789885DF593 /* Pods */,
+				3772962575863078E7D8D86D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		041BDEFE240A1D2500311649 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				041BDEFD240A1D2500311649 /* Healing Paws Veterinary Hospital.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		041BDEFF240A1D2500311649 /* Healing Paws Veterinary Hospital */ = {
+			isa = PBXGroup;
+			children = (
+				04B0FCC12410D5210080882F /* TextFieldEffects */,
+				041BDF00240A1D2500311649 /* AppDelegate.swift */,
+				041BDF02240A1D2500311649 /* SceneDelegate.swift */,
+				041BDF1A240A1DEB00311649 /* View Controllers */,
+				0409678D240F4B2D00DC8518 /* Cells */,
+				0409678A240F42EA00DC8518 /* CustomButton */,
+				041BDF06240A1D2500311649 /* Main.storyboard */,
+				041BDF09240A1D2900311649 /* Assets.xcassets */,
+				041BDF0B240A1D2900311649 /* LaunchScreen.storyboard */,
+				04D224B0240C9FBB0035762C /* GoogleService-Info.plist */,
+				041BDF0E240A1D2900311649 /* Info.plist */,
+			);
+			path = "Healing Paws Veterinary Hospital";
+			sourceTree = "<group>";
+		};
+		041BDF1A240A1DEB00311649 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				041BDF04240A1D2500311649 /* ViewController.swift */,
+				041BDF14240A1D9800311649 /* SignUpViewController.swift */,
+				041BDF16240A1DBA00311649 /* LoginViewController.swift */,
+				048417C0240E6DEB00CD59BB /* AppointmentViewController.swift */,
+				048417C2240E730D00CD59BB /* ProfileViewController.swift */,
+				048417C4240E732100CD59BB /* SettingViewController.swift */,
+				048417C6240E74B000CD59BB /* TabBarViewController.swift */,
+				048417C8240E74D700CD59BB /* HomeViewController.swift */,
+				048417CA240E8BE100CD59BB /* DetailViewController.swift */,
+				04105CD7240FDE49006584E6 /* MakeViewController.swift */,
+				04105CD9240FF0D2006584E6 /* DoctorsViewController.swift */,
+				04105CDB240FF190006584E6 /* ChatViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		04B0FCC12410D5210080882F /* TextFieldEffects */ = {
+			isa = PBXGroup;
+			children = (
+				04B0FCC22410D5210080882F /* LICENSE */,
+				04B0FCC32410D5210080882F /* README.md */,
+				04B0FCC42410D5210080882F /* TextFieldEffects */,
+			);
+			path = TextFieldEffects;
+			sourceTree = "<group>";
+		};
+		04B0FCC42410D5210080882F /* TextFieldEffects */ = {
+			isa = PBXGroup;
+			children = (
+				04B0FCC52410D5210080882F /* TextFieldEffects */,
+			);
+			path = TextFieldEffects;
+			sourceTree = "<group>";
+		};
+		04B0FCC52410D5210080882F /* TextFieldEffects */ = {
+			isa = PBXGroup;
+			children = (
+				04B0FCC62410D5210080882F /* YoshikoTextField.swift */,
+				04B0FCC72410D5210080882F /* HoshiTextField.swift */,
+				04B0FCC82410D5210080882F /* MinoruTextField.swift */,
+				04B0FCC92410D5210080882F /* YokoTextField.swift */,
+				04B0FCCA2410D5210080882F /* TextFieldEffects.swift */,
+				04B0FCCB2410D5210080882F /* JiroTextField.swift */,
+				04B0FCCC2410D5210080882F /* MadokaTextField.swift */,
+				04B0FCCD2410D5210080882F /* KaedeTextField.swift */,
+				04B0FCCE2410D5210080882F /* AkiraTextField.swift */,
+				04B0FCCF2410D5210080882F /* IsaoTextField.swift */,
+			);
+			path = TextFieldEffects;
+			sourceTree = "<group>";
+		};
+		3772962575863078E7D8D86D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04ADBCB7240CEFC700CD3B66 /* GoogleUtilities.framework */,
+				04ADBCB5240CEDD800CD3B66 /* FirebaseAuth.framework */,
+				6C2B6D5AE1F16DDDACA3EAF0 /* Pods_Healing_Paws_Veterinary_Hospital.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF467748E4B7E789885DF593 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9422C3ABCE598C2528C30F8C /* Pods-Healing Paws Veterinary Hospital.debug.xcconfig */,
+				21EAAF00628B13D583D18ADC /* Pods-Healing Paws Veterinary Hospital.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		041BDEFC240A1D2500311649 /* Healing Paws Veterinary Hospital */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 041BDF11240A1D2900311649 /* Build configuration list for PBXNativeTarget "Healing Paws Veterinary Hospital" */;
+			buildPhases = (
+				4A161345D437BD042DB3D45C /* [CP] Check Pods Manifest.lock */,
+				041BDEF9240A1D2500311649 /* Sources */,
+				041BDEFA240A1D2500311649 /* Frameworks */,
+				041BDEFB240A1D2500311649 /* Resources */,
+				F1ED6BF7FC4D20C0811469F6 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Healing Paws Veterinary Hospital";
+			productName = "Healing Paws Veterinary Hospital";
+			productReference = 041BDEFD240A1D2500311649 /* Healing Paws Veterinary Hospital.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		041BDEF5240A1D2500311649 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Jinyi Liu";
+				TargetAttributes = {
+					041BDEFC240A1D2500311649 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = 041BDEF8240A1D2500311649 /* Build configuration list for PBXProject "Healing Paws Veterinary Hospital" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 041BDEF4240A1D2500311649;
+			productRefGroup = 041BDEFE240A1D2500311649 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				041BDEFC240A1D2500311649 /* Healing Paws Veterinary Hospital */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		041BDEFB240A1D2500311649 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04B0FCD12410D5210080882F /* README.md in Resources */,
+				041BDF0D240A1D2900311649 /* LaunchScreen.storyboard in Resources */,
+				04D224B1240C9FBB0035762C /* GoogleService-Info.plist in Resources */,
+				041BDF0A240A1D2900311649 /* Assets.xcassets in Resources */,
+				041BDF08240A1D2500311649 /* Main.storyboard in Resources */,
+				04B0FCD02410D5210080882F /* LICENSE in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4A161345D437BD042DB3D45C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Healing Paws Veterinary Hospital-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1ED6BF7FC4D20C0811469F6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Healing Paws Veterinary Hospital/Pods-Healing Paws Veterinary Hospital-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Healing Paws Veterinary Hospital/Pods-Healing Paws Veterinary Hospital-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Healing Paws Veterinary Hospital/Pods-Healing Paws Veterinary Hospital-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		041BDEF9240A1D2500311649 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04B0FCD62410D5210080882F /* TextFieldEffects.swift in Sources */,
+				04105CDA240FF0D2006584E6 /* DoctorsViewController.swift in Sources */,
+				04096789240F3E1E00DC8518 /* CustomButton.swift in Sources */,
+				04096791240F76F200DC8518 /* SliderCell.swift in Sources */,
+				048417C1240E6DEB00CD59BB /* AppointmentViewController.swift in Sources */,
+				04096795240FC3A600DC8518 /* FunctionCollectionViewCell.swift in Sources */,
+				048417BF240E69CB00CD59BB /* CustomTableViewCell.swift in Sources */,
+				04B0FCD22410D5210080882F /* YoshikoTextField.swift in Sources */,
+				041BDF05240A1D2500311649 /* ViewController.swift in Sources */,
+				048417CB240E8BE100CD59BB /* DetailViewController.swift in Sources */,
+				041BDF01240A1D2500311649 /* AppDelegate.swift in Sources */,
+				041BDF15240A1D9800311649 /* SignUpViewController.swift in Sources */,
+				04B0FCD42410D5210080882F /* MinoruTextField.swift in Sources */,
+				048417C5240E732100CD59BB /* SettingViewController.swift in Sources */,
+				04B0FCDD24112D6C0080882F /* UploadButton.swift in Sources */,
+				04B0FCDB2410D5210080882F /* IsaoTextField.swift in Sources */,
+				04B0FCDF24112EAD0080882F /* BookButton.swift in Sources */,
+				04105CDE240FF29C006584E6 /* DoctorTableViewCell.swift in Sources */,
+				04105CD8240FDE49006584E6 /* MakeViewController.swift in Sources */,
+				041BDF17240A1DBA00311649 /* LoginViewController.swift in Sources */,
+				048417C9240E74D700CD59BB /* HomeViewController.swift in Sources */,
+				04B0FCD82410D5210080882F /* MadokaTextField.swift in Sources */,
+				048417C3240E730D00CD59BB /* ProfileViewController.swift in Sources */,
+				048417C7240E74B000CD59BB /* TabBarViewController.swift in Sources */,
+				04B0FCD72410D5210080882F /* JiroTextField.swift in Sources */,
+				041BDF03240A1D2500311649 /* SceneDelegate.swift in Sources */,
+				0409678C240F431700DC8518 /* SignUpButton.swift in Sources */,
+				04B0FCDA2410D5210080882F /* AkiraTextField.swift in Sources */,
+				04B0FCD52410D5210080882F /* YokoTextField.swift in Sources */,
+				04105CDC240FF190006584E6 /* ChatViewController.swift in Sources */,
+				04B0FCD92410D5210080882F /* KaedeTextField.swift in Sources */,
+				04096793240FA4E100DC8518 /* CancelButton.swift in Sources */,
+				04B0FCD32410D5210080882F /* HoshiTextField.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		041BDF06240A1D2500311649 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				041BDF07240A1D2500311649 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		041BDF0B240A1D2900311649 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				041BDF0C240A1D2900311649 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		041BDF0F240A1D2900311649 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/jinyiliu/Desktop/Healing\\ Paws\\ Veterinary\\ Hospital/Healing\\ Paws\\ Veterinary\\ Hospital/Header.h ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		041BDF10240A1D2900311649 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/jinyiliu/Desktop/Healing\\ Paws\\ Veterinary\\ Hospital/Healing\\ Paws\\ Veterinary\\ Hospital/Header.h ";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		041BDF12240A1D2900311649 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9422C3ABCE598C2528C30F8C /* Pods-Healing Paws Veterinary Hospital.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Firebase/FirebaseAuth",
+					"$(PROJECT_DIR)/Firebase/FirebaseAnalytics",
+					"$(PROJECT_DIR)/Firebase",
+				);
+				INFOPLIST_FILE = "Healing Paws Veterinary Hospital/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jinyiliu.Healing-Paws-Veterinary-Hospital";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		041BDF13240A1D2900311649 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21EAAF00628B13D583D18ADC /* Pods-Healing Paws Veterinary Hospital.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Firebase/FirebaseAuth",
+					"$(PROJECT_DIR)/Firebase/FirebaseAnalytics",
+					"$(PROJECT_DIR)/Firebase",
+				);
+				INFOPLIST_FILE = "Healing Paws Veterinary Hospital/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jinyiliu.Healing-Paws-Veterinary-Hospital";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		041BDEF8240A1D2500311649 /* Build configuration list for PBXProject "Healing Paws Veterinary Hospital" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				041BDF0F240A1D2900311649 /* Debug */,
+				041BDF10240A1D2900311649 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		041BDF11240A1D2900311649 /* Build configuration list for PBXNativeTarget "Healing Paws Veterinary Hospital" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				041BDF12240A1D2900311649 /* Debug */,
+				041BDF13240A1D2900311649 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 041BDEF5240A1D2500311649 /* Project object */;
+}

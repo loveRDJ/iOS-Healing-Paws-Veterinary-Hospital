@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>580117503248-uuoopnih3bq6d2i3bm09s9mbh19nmjkm.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.580117503248-uuoopnih3bq6d2i3bm09s9mbh19nmjkm</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDnUv99V2Xa6Xw29eid2YwOCuXsIh_PokE</string>
+	<key>GCM_SENDER_ID</key>
+	<string>580117503248</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.jinyiliu.Healing-Paws-Veterinary-Hospital</string>
+	<key>PROJECT_ID</key>
+	<string>healingpawsveterinaryhospital</string>
+	<key>STORAGE_BUCKET</key>
+	<string>healingpawsveterinaryhospital.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:580117503248:ios:40ccf23507a235852f5995</string>
+	<key>DATABASE_URL</key>
+	<string>https://healingpawsveterinaryhospital.firebaseio.com</string>
+</dict>
+</plist>

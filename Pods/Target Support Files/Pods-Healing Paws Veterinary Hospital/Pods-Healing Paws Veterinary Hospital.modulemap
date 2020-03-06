@@ -1,0 +1,6 @@
+framework module Pods_Healing_Paws_Veterinary_Hospital {
+  umbrella header "Pods-Healing Paws Veterinary Hospital-umbrella.h"
+
+  export *
+  module * { export * }
+}

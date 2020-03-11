@@ -7,13 +7,51 @@
 //
 
 import UIKit
+import Firebase
+import AVKit
 
 class ViewController: UIViewController {
-
+    
+    var videoPlayer:AVPlayer?
+      
+    var videoPlayerLayer:AVPlayerLayer?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        let db = Firestore.firestore()
+ 
+        db.collection("wine").addDocument(data:  ["year":2017,"type": "red"]) { (err) in
+            print(err.debugDescription)
+        print("FIRESTORE")
+        }
     }
+    
+   override func viewWillAppear(_ animated: Bool) {
+             setUpVideo()
+         }
+         
+         func setUpVideo(){
+             //get the path to the resource in the bundle
+          let bundlePath = Bundle.main.path(forResource: "video", ofType: "mp4")
+          
+          guard bundlePath != nil else{
+              return
+          }
+             //create a URL from it
+          let url = URL(fileURLWithPath: bundlePath!)
+             //create the video player item
+             let item = AVPlayerItem(url: url)
+             //create the player
+             videoPlayer = AVPlayer(playerItem: item)
+             //create the layer
+              videoPlayerLayer = AVPlayerLayer(player: videoPlayer)
+             //adjust the size and frame
+          videoPlayerLayer?.frame = CGRect(x: -self.view.frame.size.width*1.5, y: 0, width: self.view.frame.size.width*4, height: self.view.frame.size.height)
+          view.layer.insertSublayer(videoPlayerLayer!, at: 0)
+             //add it to the view and play it
+          videoPlayer?.play()
+         }
 
 
 }

@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import FirebaseAuth
+import Firebase
 
 class SignUpViewController: UIViewController {
     
@@ -21,6 +23,7 @@ class SignUpViewController: UIViewController {
         super.viewDidLoad()
         ErrorLabel.text="Error shows here"
         // Do any additional setup after loading the view.
+     
     }
     
     //check the field and the validate, and return a string if it is not validate
@@ -80,9 +83,44 @@ class SignUpViewController: UIViewController {
         if error != nil{
             showError(error!)
         }
-        //create a user
+        else{
+            
+            //create cleaned version of the data
+            let firstName = FirstName.text!.trimmingCharacters(in: .whitespacesAndNewlines)
+            let lastName = LastName.text!.trimmingCharacters(in: .whitespacesAndNewlines)
+            let email = Email.text!.trimmingCharacters(in: .whitespacesAndNewlines)
+            let password = Password.text!.trimmingCharacters(in: .whitespacesAndNewlines)
+            //create a user
+            Auth.auth().createUser(withEmail: email, password: password) { (result, err) in
+                //check for errors
+                if err != nil {
+                    //there was an error creating the user
+                    self.showError("Error creating user")
+                }else{
+                    //user was created successfully, now store the first name and last name
+                    let db = Firestore.firestore()
+                    print(Auth.auth().currentUser!.uid+"[[[[[[[[[[[[[[[[[[[[[[[[")
+                    self.transitionToHome()
+                    db.collection("users").document("ihaIi5mVaQZXzx4YCInm").setData(["first_name":firstName, "last_name":lastName])
+//                    db.collection("users").addDocument(data: ["first_name":firstName, "last_name":lastName, "uid":Auth.auth().currentUser!.uid])
+//                    self.transitionToHome()
+//                    db.collection("users").addDocument(data: ["first_name":firstName, "last_name":lastName, "uid":result!.user.uid]) { (error) in
+//
+//                        if error != nil{
+//                            print("EorroRRRRRRRR",error.debugDescription)
+//                            self.showError("Error saving user data")
+//                        }else{
+//                            print("No error")
+//                            self.showError("No Error")
+//                        }
+//                    }
+//                    self.transitionToHome()
+                }
+
+            }
+            //transition to the home screen
+        }
         
-        //transition to the home screen
         
     }
     
@@ -91,4 +129,10 @@ class SignUpViewController: UIViewController {
         ErrorLabel.alpha = 1
     }
 
+    func transitionToHome(){
+        let homeViewController = storyboard?.instantiateViewController(identifier: Constants.Storyboard.homeViewController) as? TabBarViewController
+        
+        view.window?.rootViewController = homeViewController
+        view.window?.makeKeyAndVisible()
+    }
 }

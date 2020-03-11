@@ -12,6 +12,7 @@
 		04096791240F76F200DC8518 /* SliderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04096790240F76F200DC8518 /* SliderCell.swift */; };
 		04096793240FA4E100DC8518 /* CancelButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04096792240FA4E100DC8518 /* CancelButton.swift */; };
 		04096795240FC3A600DC8518 /* FunctionCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04096794240FC3A600DC8518 /* FunctionCollectionViewCell.swift */; };
+		040A20612415FC8A007D7314 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040A20602415FC8A007D7314 /* Constants.swift */; };
 		04105CD8240FDE49006584E6 /* MakeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04105CD7240FDE49006584E6 /* MakeViewController.swift */; };
 		04105CDA240FF0D2006584E6 /* DoctorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04105CD9240FF0D2006584E6 /* DoctorsViewController.swift */; };
 		04105CDC240FF190006584E6 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04105CDB240FF190006584E6 /* ChatViewController.swift */; };
@@ -24,6 +25,8 @@
 		041BDF0D240A1D2900311649 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 041BDF0B240A1D2900311649 /* LaunchScreen.storyboard */; };
 		041BDF15240A1D9800311649 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041BDF14240A1D9800311649 /* SignUpViewController.swift */; };
 		041BDF17240A1DBA00311649 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041BDF16240A1DBA00311649 /* LoginViewController.swift */; };
+		047252B92417C2AD00347400 /* video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 047252B82417C2AD00347400 /* video.mp4 */; };
+		047252BB2417C2DD00347400 /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047252BA2417C2DD00347400 /* LaunchViewController.swift */; };
 		048417BF240E69CB00CD59BB /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048417BE240E69CB00CD59BB /* CustomTableViewCell.swift */; };
 		048417C1240E6DEB00CD59BB /* AppointmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048417C0240E6DEB00CD59BB /* AppointmentViewController.swift */; };
 		048417C3240E730D00CD59BB /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048417C2240E730D00CD59BB /* ProfileViewController.swift */; };
@@ -31,6 +34,8 @@
 		048417C7240E74B000CD59BB /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048417C6240E74B000CD59BB /* TabBarViewController.swift */; };
 		048417C9240E74D700CD59BB /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048417C8240E74D700CD59BB /* HomeViewController.swift */; };
 		048417CB240E8BE100CD59BB /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048417CA240E8BE100CD59BB /* DetailViewController.swift */; };
+		048EA3CA24186EEB00FA3969 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048EA3C924186EEB00FA3969 /* MenuViewController.swift */; };
+		048EA3CC241885A500FA3969 /* SlideInTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048EA3CB241885A500FA3969 /* SlideInTransition.swift */; };
 		04ADBCB8240CEFC700CD3B66 /* GoogleUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04ADBCB7240CEFC700CD3B66 /* GoogleUtilities.framework */; };
 		04B0FCD02410D5210080882F /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 04B0FCC22410D5210080882F /* LICENSE */; };
 		04B0FCD12410D5210080882F /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 04B0FCC32410D5210080882F /* README.md */; };
@@ -56,6 +61,7 @@
 		04096790240F76F200DC8518 /* SliderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderCell.swift; sourceTree = "<group>"; };
 		04096792240FA4E100DC8518 /* CancelButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CancelButton.swift; sourceTree = "<group>"; };
 		04096794240FC3A600DC8518 /* FunctionCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionCollectionViewCell.swift; sourceTree = "<group>"; };
+		040A20602415FC8A007D7314 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		04105CD7240FDE49006584E6 /* MakeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeViewController.swift; sourceTree = "<group>"; };
 		04105CD9240FF0D2006584E6 /* DoctorsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorsViewController.swift; sourceTree = "<group>"; };
 		04105CDB240FF190006584E6 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
@@ -70,6 +76,8 @@
 		041BDF0E240A1D2900311649 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		041BDF14240A1D9800311649 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		041BDF16240A1DBA00311649 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		047252B82417C2AD00347400 /* video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video.mp4; sourceTree = "<group>"; };
+		047252BA2417C2DD00347400 /* LaunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchViewController.swift; sourceTree = "<group>"; };
 		048417BE240E69CB00CD59BB /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 		048417C0240E6DEB00CD59BB /* AppointmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentViewController.swift; sourceTree = "<group>"; };
 		048417C2240E730D00CD59BB /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
@@ -77,6 +85,8 @@
 		048417C6240E74B000CD59BB /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		048417C8240E74D700CD59BB /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		048417CA240E8BE100CD59BB /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		048EA3C924186EEB00FA3969 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		048EA3CB241885A500FA3969 /* SlideInTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideInTransition.swift; sourceTree = "<group>"; };
 		04ADBCB5240CEDD800CD3B66 /* FirebaseAuth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseAuth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		04ADBCB7240CEFC700CD3B66 /* GoogleUtilities.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GoogleUtilities.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		04B0FCC22410D5210080882F /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
@@ -135,6 +145,14 @@
 			path = Cells;
 			sourceTree = "<group>";
 		};
+		040A205F2415FC7C007D7314 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				040A20602415FC8A007D7314 /* Constants.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		041BDEF4240A1D2500311649 = {
 			isa = PBXGroup;
 			children = (
@@ -156,8 +174,11 @@
 		041BDEFF240A1D2500311649 /* Healing Paws Veterinary Hospital */ = {
 			isa = PBXGroup;
 			children = (
+				047252B72417C29B00347400 /* Media */,
+				040A205F2415FC7C007D7314 /* Helpers */,
 				04B0FCC12410D5210080882F /* TextFieldEffects */,
 				041BDF00240A1D2500311649 /* AppDelegate.swift */,
+				048EA3CB241885A500FA3969 /* SlideInTransition.swift */,
 				041BDF02240A1D2500311649 /* SceneDelegate.swift */,
 				041BDF1A240A1DEB00311649 /* View Controllers */,
 				0409678D240F4B2D00DC8518 /* Cells */,
@@ -186,8 +207,18 @@
 				04105CD7240FDE49006584E6 /* MakeViewController.swift */,
 				04105CD9240FF0D2006584E6 /* DoctorsViewController.swift */,
 				04105CDB240FF190006584E6 /* ChatViewController.swift */,
+				047252BA2417C2DD00347400 /* LaunchViewController.swift */,
+				048EA3C924186EEB00FA3969 /* MenuViewController.swift */,
 			);
 			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		047252B72417C29B00347400 /* Media */ = {
+			isa = PBXGroup;
+			children = (
+				047252B82417C2AD00347400 /* video.mp4 */,
+			);
+			path = Media;
 			sourceTree = "<group>";
 		};
 		04B0FCC12410D5210080882F /* TextFieldEffects */ = {
@@ -308,6 +339,7 @@
 				041BDF0D240A1D2900311649 /* LaunchScreen.storyboard in Resources */,
 				04D224B1240C9FBB0035762C /* GoogleService-Info.plist in Resources */,
 				041BDF0A240A1D2900311649 /* Assets.xcassets in Resources */,
+				047252B92417C2AD00347400 /* video.mp4 in Resources */,
 				041BDF08240A1D2500311649 /* Main.storyboard in Resources */,
 				04B0FCD02410D5210080882F /* LICENSE in Resources */,
 			);
@@ -363,6 +395,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04B0FCD62410D5210080882F /* TextFieldEffects.swift in Sources */,
+				040A20612415FC8A007D7314 /* Constants.swift in Sources */,
 				04105CDA240FF0D2006584E6 /* DoctorsViewController.swift in Sources */,
 				04096789240F3E1E00DC8518 /* CustomButton.swift in Sources */,
 				04096791240F76F200DC8518 /* SliderCell.swift in Sources */,
@@ -380,6 +413,7 @@
 				04B0FCDB2410D5210080882F /* IsaoTextField.swift in Sources */,
 				04B0FCDF24112EAD0080882F /* BookButton.swift in Sources */,
 				04105CDE240FF29C006584E6 /* DoctorTableViewCell.swift in Sources */,
+				048EA3CC241885A500FA3969 /* SlideInTransition.swift in Sources */,
 				04105CD8240FDE49006584E6 /* MakeViewController.swift in Sources */,
 				041BDF17240A1DBA00311649 /* LoginViewController.swift in Sources */,
 				048417C9240E74D700CD59BB /* HomeViewController.swift in Sources */,
@@ -387,10 +421,12 @@
 				048417C3240E730D00CD59BB /* ProfileViewController.swift in Sources */,
 				048417C7240E74B000CD59BB /* TabBarViewController.swift in Sources */,
 				04B0FCD72410D5210080882F /* JiroTextField.swift in Sources */,
+				047252BB2417C2DD00347400 /* LaunchViewController.swift in Sources */,
 				041BDF03240A1D2500311649 /* SceneDelegate.swift in Sources */,
 				0409678C240F431700DC8518 /* SignUpButton.swift in Sources */,
 				04B0FCDA2410D5210080882F /* AkiraTextField.swift in Sources */,
 				04B0FCD52410D5210080882F /* YokoTextField.swift in Sources */,
+				048EA3CA24186EEB00FA3969 /* MenuViewController.swift in Sources */,
 				04105CDC240FF190006584E6 /* ChatViewController.swift in Sources */,
 				04B0FCD92410D5210080882F /* KaedeTextField.swift in Sources */,
 				04096793240FA4E100DC8518 /* CancelButton.swift in Sources */,
@@ -553,10 +589,12 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_LIBTOOLFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jinyiliu.Healing-Paws-Veterinary-Hospital";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -579,7 +617,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_LIBTOOLFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jinyiliu.Healing-Paws-Veterinary-Hospital";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "";
